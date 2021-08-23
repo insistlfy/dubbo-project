@@ -1,8 +1,8 @@
 server:
-  port: 5000
+  port: 5001
 spring:
   application:
-    name: provider
+    name: consumer
   cloud:
     nacos:
       discovery:
