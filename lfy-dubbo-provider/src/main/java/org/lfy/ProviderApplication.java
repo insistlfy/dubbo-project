@@ -14,9 +14,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @Versions: V3.0
  * @Company: ©2021东方微银科技（西安）有限公司
  */
+@SpringBootApplication
 @EnableDubbo
 @EnableDiscoveryClient
-@SpringBootApplication
 public class ProviderApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProviderApplication.class, args);
