@@ -5,8 +5,7 @@ package org.lfy.api;
  * @Description: TODO
  * @Author: LFY
  * @Created: 2021/8/23 17:19
- * @Versions: V3.0
- * @Company: ©2021东方微银科技（西安）有限公司
+ * @Versions: V1.0
  */
 public interface ProviderService {
 

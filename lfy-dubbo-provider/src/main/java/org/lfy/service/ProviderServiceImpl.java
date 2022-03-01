@@ -8,8 +8,7 @@ import org.lfy.api.ProviderService;
  * @Description: 添加@org.apache.dubbo.config.annotation.Service注解，使得该服务可被dubbo发现和调用（暴露服务）
  * @Author: LFY
  * @Created: 2021/8/23 17:19
- * @Versions: V3.0
- * @Company: ©2021东方微银科技（西安）有限公司
+ * @Versions: V1.0
  */
 @Service
 public class ProviderServiceImpl implements ProviderService {

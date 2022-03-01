@@ -9,8 +9,7 @@ import org.springframework.stereotype.Service;
  * @Description: TODO
  * @Author: LFY
  * @Created: 2021/8/23 18:28
- * @Versions: V3.0
- * @Company: ©2021东方微银科技（西安）有限公司
+ * @Versions: V1.0
  */
 @Service
 public class ConsumerServiceImpl {
