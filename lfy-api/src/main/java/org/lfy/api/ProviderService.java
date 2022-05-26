@@ -1,5 +1,7 @@
 package org.lfy.api;
 
+import org.lfy.model.User;
+
 /**
  * @ClassName: ProviderService
  * @Description: TODO
@@ -12,8 +14,8 @@ public interface ProviderService {
     /**
      * provider
      *
-     * @param content String
-     * @return String
+     * @param userId Long
+     * @return User
      */
-    String provider(String content);
+    User queryUserByUserId(Long userId);
 }
