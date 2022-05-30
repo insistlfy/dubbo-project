@@ -1,14 +1,11 @@
 server:
   port: 5000
 spring:
+  # 配置指定需要激活的配置文件
+  profiles:
+    active: nacos
   application:
     name: provider
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
-        # 开发环境空间
-        namespace: b5b97b5f-3bdd-40cd-9854-5eb3b5e8f53a
 
 dubbo:
   scan:
@@ -19,8 +16,6 @@ dubbo:
     name: dubbo
     # dubbo 协议端口
     port: -1
-  registry:
-    address: nacos://127.0.0.1:8848
   application:
     # dubbo 运维服务是否开启
     qos-enable: false

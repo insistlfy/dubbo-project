@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        # 配置中心地址
+        server-addr: 127.0.0.1:8848
+        # 开发环境空间
+        namespace: b5b97b5f-3bdd-40cd-9854-5eb3b5e8f53a
+
+# 使用nacos注册中心暴露发现服务地址
+dubbo:
+  registry:
+    address: nacos://127.0.0.1:8848
